@@ -2625,7 +2625,7 @@ scope-token = 1*( %x21 / %x23-5B / %x5D-7E )
 >      }
 
 
-# 访问令牌的刷新 - Refreshing an Access Token
+# 6. 访问令牌的刷新 - Refreshing an Access Token
 
 如果授权服务器有签发刷新令牌给客户端，那客户端可以如附录B中的描述通过"application/x-www-form-urlencoded"格式组织如下参数，并使用UTF-8进行编码后放入HTTP请求体。将请求发送至token端点以刷新访问令牌：
 
